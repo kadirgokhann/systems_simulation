@@ -1,0 +1,254 @@
+
+                                      ARENA Simulation Results
+                               Windows Kullanýcýsý - License: STUDENT
+
+                                  Summary for Replication 1 of 4
+
+Project: Unnamed Project                                             Run execution date :12/14/2023
+Analyst: DELL                                                        Model revision date:12/14/2023
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeFoodQ                                   47.390     (Insuf)    .00000     104.80        173    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+NR(FoodS)                                   1.9028     (Insuf)    .00000     2.0000     2.0000    
+NR(Cashier)                                 .97633     (Insuf)    .00000     1.0000     1.0000    
+NQ(CashQ)                                   8.9785     (Corr)     .00000     25.000     19.000    
+NQ(FoodQ)                                   22.530     (Corr)     .00000     51.000     48.000    
+MR(FoodS)                                   1.9232     (Insuf)    1.0000     2.0000     2.0000    
+MR(Cashier)                                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+NC(Exited)                                  74.999     (Insuf)    .00000     151.00     151.00    
+FoodS.NumberBusy                            1.9028     (Insuf)    .00000     2.0000     2.0000    
+FoodS.NumberScheduled                       1.9232     (Insuf)    1.0000     2.0000     2.0000    
+FoodS.Utilization                           .98268     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .97633     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .97633     (Insuf)    .00000     1.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Exited                                          151  Infinite
+NumberOfForgottenStudents                        35  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+FoodS.NumberSeized                          173.00    
+FoodS.ScheduledUtilization                  .98940    
+Cashier.NumberSeized                        187.00    
+Cashier.ScheduledUtilization                .97633    
+System.NumberOut                            .00000    
+
+Beginning replication 2 of 4
+
+                                      ARENA Simulation Results
+                               Windows Kullanýcýsý - License: STUDENT
+
+                                  Summary for Replication 2 of 4
+
+Project: Unnamed Project                                             Run execution date :12/14/2023
+Analyst: DELL                                                        Model revision date:12/14/2023
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeFoodQ                                   26.798     (Insuf)    .00000     59.882        214    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+NR(FoodS)                                   1.9375     (Insuf)    .00000     2.0000     2.0000    
+NR(Cashier)                                 .97283     (Insuf)    .00000     1.0000     1.0000    
+NQ(CashQ)                                   34.504     (Corr)     .00000     65.000     64.000    
+NQ(FoodQ)                                   13.538     (Corr)     .00000     30.000     25.000    
+MR(FoodS)                                   1.9303     (Insuf)    1.0000     2.0000     2.0000    
+MR(Cashier)                                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+NC(Exited)                                  67.892     (Insuf)    .00000     151.00     146.00    
+FoodS.NumberBusy                            1.9375     (Insuf)    .00000     2.0000     2.0000    
+FoodS.NumberScheduled                       1.9303     (Insuf)    1.0000     2.0000     2.0000    
+FoodS.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .97283     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .97283     (Insuf)    .00000     1.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Exited                                          146  Infinite
+NumberOfForgottenStudents                        30  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+FoodS.NumberSeized                          214.00    
+FoodS.ScheduledUtilization                  1.0037    
+Cashier.NumberSeized                        177.00    
+Cashier.ScheduledUtilization                .97283    
+System.NumberOut                            .00000    
+
+Beginning replication 3 of 4
+
+                                      ARENA Simulation Results
+                               Windows Kullanýcýsý - License: STUDENT
+
+                                  Summary for Replication 3 of 4
+
+Project: Unnamed Project                                             Run execution date :12/14/2023
+Analyst: DELL                                                        Model revision date:12/14/2023
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeFoodQ                                   22.805     (Insuf)    .00000     35.893        203    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+NR(FoodS)                                   1.8700     (Insuf)    .00000     2.0000     2.0000    
+NR(Cashier)                                 .99605     (Insuf)    .00000     1.0000     1.0000    
+NQ(CashQ)                                   22.695     (Corr)     .00000     56.000     56.000    
+NQ(FoodQ)                                   9.9267     (Corr)     .00000     18.000     13.000    
+MR(FoodS)                                   1.9343     (Insuf)    1.0000     2.0000     2.0000    
+MR(Cashier)                                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+NC(Exited)                                  71.232     (Insuf)    .00000     146.00     144.00    
+FoodS.NumberBusy                            1.8700     (Insuf)    .00000     2.0000     2.0000    
+FoodS.NumberScheduled                       1.9343     (Insuf)    1.0000     2.0000     2.0000    
+FoodS.Utilization                           .96627     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .99605     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .99605     (Insuf)    .00000     1.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Exited                                          144  Infinite
+NumberOfForgottenStudents                        49  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+FoodS.NumberSeized                          203.00    
+FoodS.ScheduledUtilization                  .96676    
+Cashier.NumberSeized                        194.00    
+Cashier.ScheduledUtilization                .99605    
+System.NumberOut                            .00000    
+
+Beginning replication 4 of 4
+
+                                      ARENA Simulation Results
+                               Windows Kullanýcýsý - License: STUDENT
+
+                                  Summary for Replication 4 of 4
+
+Project: Unnamed Project                                             Run execution date :12/14/2023
+Analyst: DELL                                                        Model revision date:12/14/2023
+
+Replication ended at time      : 480.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TimeFoodQ                                   29.821     (Insuf)    .00000     60.074        207    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+NR(FoodS)                                   1.9276     (Insuf)    .00000     2.0000     2.0000    
+NR(Cashier)                                 .97847     (Insuf)    .00000     1.0000     1.0000    
+NQ(CashQ)                                   13.796     (Corr)     .00000     37.000     35.000    
+NQ(FoodQ)                                   13.393     (Corr)     .00000     24.000     15.000    
+MR(FoodS)                                   1.9307     (Insuf)    1.0000     2.0000     2.0000    
+MR(Cashier)                                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+NC(Exited)                                  82.634     (Insuf)    .00000     169.00     169.00    
+FoodS.NumberBusy                            1.9276     (Insuf)    .00000     2.0000     2.0000    
+FoodS.NumberScheduled                       1.9307     (Insuf)    1.0000     2.0000     2.0000    
+FoodS.Utilization                           .99507     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberBusy                          .97847     (Insuf)    .00000     1.0000     1.0000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .97847     (Insuf)    .00000     1.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Exited                                          169  Infinite
+NumberOfForgottenStudents                        38  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+FoodS.NumberSeized                          207.00    
+FoodS.ScheduledUtilization                  .99839    
+Cashier.NumberSeized                        208.00    
+Cashier.ScheduledUtilization                .97847    
+System.NumberOut                            .00000    
+
+
+                                      ARENA Simulation Results
+                               Windows Kullanýcýsý - License: STUDENT
+
+                                  Output Summary for 4 Replications
+
+Project: Unnamed Project                                             Run execution date :12/14/2023
+Analyst: DELL                                                        Model revision date:12/14/2023
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+FoodS.NumberSeized                          199.25     28.766     173.00     214.00     4
+FoodS.ScheduledUtilization                  .98956     .02595     .96676     1.0037     4
+Cashier.NumberSeized                        191.50     20.723     177.00     208.00     4
+Cashier.ScheduledUtilization                .98092     .01647     .97283     .99605     4
+System.NumberOut                            .00000     .00000     .00000     .00000     4
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.

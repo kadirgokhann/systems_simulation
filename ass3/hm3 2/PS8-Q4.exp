@@ -1,0 +1,38 @@
+PROJECT,      "Unnamed Project","DELL",,,No,Yes,Yes,Yes,No,No,No,No,No,No;
+
+ATTRIBUTES:   ArrTime,DATATYPE(Real):
+              Type,DATATYPE(Real): # 1 = Eng, 2 = Soc
+              Priority,DATATYPE(Real): # 1 = High, 2 = Low
+              PaymentType,DATATYPE(Real): # 1 = Crard, 2 = Cash
+              FServiceTime,DATATYPE(Real); # Food Service Time
+
+SCHEDULES:    FoodSchedule,TYPE(Capacity),FORMAT(Duration),FACTOR(1.0),UNITS(Minutes),,,DATA(2,165),DATA(1,15);
+
+STORAGES:     1,FoodStorageEng: # Food Storage for Eng Students
+              2,FoodStorageSoc: # Food Storage for Soc Students
+              3,CashStorageEng: # Cash Storage for Eng Students
+              4,CashStorageSoc: # Cash Storage for Soc Students
+              5,ForgotStrorageEng: # Forgoten ones Storage for Eng Students
+              6,ForgotStrorageSoc; # Forgoten ones Storage for Soc Students
+
+QUEUES:       1,FoodQ,FirstInFirstOut,,AUTOSTATS(No,,): # Food Queue
+              2,CashQ,LowValueFirst(Priority),,AUTOSTATS(No,,); # Cash Queue
+
+RESOURCES:    1,FoodS,Schedule(FoodSchedule,Wait),,Stationary,COST(0.0,0.0,0.0),,AUTOSTATS(Yes,,):
+              2,Cashier,Capacity(1),,Stationary,COST(0.0,0.0,0.0),,AUTOSTATS(Yes,,);
+
+COUNTERS:     Exited,,Replicate: # To count the number of exited students
+              NumberOfForgottenStudents,,Replicate; # To count the number of forgotten students
+
+TALLIES:      TimeFoodQ; # To tally the time spent in the Food Queue
+
+DSTATS:       1,NR(FoodS):
+              2,NR(Cashier):
+              3,NQ(CashQ):
+              4,NQ(FoodQ):
+              5,MR(FoodS):
+              6,MR(Cashier):
+              NC(Exited);
+
+REPLICATE,    4,0.0,480,Yes,Yes,0.0,,,24.0,Minutes,No,No,,,No,No;
+
